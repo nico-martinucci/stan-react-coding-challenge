@@ -2,7 +2,9 @@
  * TODO:
  */
 function CategoryTile() {
-
+    return (
+        <h1>CategoryTile</h1>
+    )
 }
 
 
