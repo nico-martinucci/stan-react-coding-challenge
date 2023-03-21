@@ -1,0 +1,23 @@
+.CategoryTile-container {}
+
+.CategoryTile-background {
+    background-color: black;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CategoryTile-title {
+    color: white;
+    margin: auto;
+}
+
+.CategoryTile-placeholder {
+    position: absolute;
+}
+
+.CategoryTile-description {}
