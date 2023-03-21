@@ -1,9 +1,13 @@
+import TitleBar from "./TitleBar";
+
 /**
  * TODO:
  */
 function Movies() {
     return (
-        <h1>Movies</h1>
+        <div className="Movies-container">
+            <TitleBar pageTitle="Popular Movies" />
+        </div>
     )
 }
 

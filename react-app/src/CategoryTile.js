@@ -13,7 +13,7 @@ function CategoryTile({ title }) {
         <div className="CategoryTile-container">
             <Link to={`/${title}`}>
                 <div className="CategoryTile-background">
-                    <h2 className="CategoryTile-title">{title.toUpperCase()}</h2>
+                    <h3 className="CategoryTile-title">{title.toUpperCase()}</h3>
                     <img className="CategoryTile-placeholder" src="placeholder.png" />
                 </div>
             </Link>

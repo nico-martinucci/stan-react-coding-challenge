@@ -1,4 +1,5 @@
 import CategoryTile from "./CategoryTile"
+import TitleBar from "./TitleBar"
 import "./Home.css"
 
 /**
@@ -8,10 +9,13 @@ function Home() {
     const categories = ["series", "movies"];
 
     return (
-        <div className="Home-categories">
-            {categories.map(c => (
-                <CategoryTile title={c} />
-            ))}
+        <div className="Home-container">
+            <TitleBar pageTitle="Popular Titles" />
+            <div className="Home-categories">
+                {categories.map(c => (
+                    <CategoryTile title={c} />
+                ))}
+            </div>
         </div>
     )
 }
