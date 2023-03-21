@@ -12,12 +12,14 @@ import Footer from './Footer';
 function App() {
 	return (
 		<BrowserRouter>
-			<Header />
-			<Routes>
-				<Route path="/movies" element={<Movies />} />
-				<Route path="/series" element={<Series />} />
-			</Routes>
-			<Footer />
+			<div className='App-content'>
+				<Header />
+				<Routes>
+					<Route path="/movies" element={<Movies />} />
+					<Route path="/series" element={<Series />} />
+				</Routes>
+				<Footer />
+			</div>
 		</BrowserRouter>
 	)
 }
