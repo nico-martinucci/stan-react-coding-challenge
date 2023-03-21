@@ -1,0 +1,32 @@
+.Header-background {
+    background-color: rgb(6, 123, 240);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header-titleDiv {
+    margin: auto 0 auto 2rem;
+}
+
+.Header-linksDiv {
+    margin: auto 2rem auto 0;
+}
+
+.Header-title {
+    color: white;
+    margin: .5rem 0 .8rem;
+}
+
+.Header-linkContent {
+    font-size: 1rem;
+    color: white;
+    margin: auto 0 auto 2rem;
+}
+
+.Header-logIn {}
+
+.Header-trialButton {
+    background-color: rgb(59, 59, 59);
+    padding: .3rem .8rem;
+    border: none;
+}
