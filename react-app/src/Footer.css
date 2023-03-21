@@ -1,0 +1,45 @@
+.Footer-background {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer-linksDiv {
+    display: flex;
+    margin-left: -1rem;
+    margin-bottom: 1rem;
+}
+
+.Footer-link {
+    margin: auto 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.Footer-iconsDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.Footer-socialMedia {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Footer-externalLinks {
+    display: flex;
+    margin-right: -1.5rem;
+}
+
+.Footer-socialLogo {
+    height: 30px;
+    margin: auto 1rem auto 0;
+}
+
+.Footer-storeLogo {
+    margin: auto 0 auto 1rem;
+}
